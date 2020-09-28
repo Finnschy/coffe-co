@@ -9,6 +9,7 @@ font-family: 'Special Elite', cursive; */
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Special Elite', cursive;
 }
 
 nav {
@@ -32,7 +33,6 @@ nav li {
 }
 nav li a {
     text-decoration: none;
-    font-family: 'Special Elite', cursive;
     color: #000;
     padding: 20px;
     
@@ -58,9 +58,9 @@ header {
 }
 
 .hello p {
-    font-family: 'Special Elite', cursive;
     letter-spacing: 1px;
     line-height: 23px;
+    font-size: 1.3rem;
 }
 
 .hello p:nth-of-type(2) {
@@ -77,10 +77,25 @@ header {
 
 .background-img {
     height: 80vh;
-    background: url(../img/bridge_1.jpg) center / cover no-repeat;
-    background-attachment: fixed;
     margin-top: 0;
 }   
+
+.bridge01 {
+    background: url(../img/bridge_1.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+.bridge02 {
+    background: url(../img/bridge_2.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.menu {
+    background: url(../img/cake_icon.png) left / contain no-repeat;
+    height: 100vh;
+    
+}
 
 h2 {
     font-family: 'Exo', sans-serif;
@@ -89,4 +104,132 @@ h2 {
     margin-top: 0;
     padding-top: 30px;
     text-align: center;
+}
+
+#toast-icon {
+    height: 5%;
+    width: 5%;
+    margin: 0 auto;
+    display: block;
+    margin-top: -2%;
+}
+
+.menu div {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .5%;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 2.5%;
+    text-align: center;
+}
+
+h3:nth-of-type(2) {
+    margin-bottom: 1%;
+}
+
+h4 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+}
+
+.menu article {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.menu article h4 {
+    margin-bottom: -3%;
+}
+
+.menu article:nth-of-type(2) {
+    margin-bottom: 5%;
+}
+
+.story h3 , .catering h3 , .ourcakes h3 {
+    text-align: left;
+}
+
+.story p , .catering p , .ourcakes p{
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.story {
+    width: 30%;
+    margin: 15% 5% 10% 25%;
+}
+
+.story img {
+    height: 90%;
+    width: 90%;
+    margin: -100% 0 7% 110%;
+}
+
+.bridge03 {
+    background: url(../img/bridge_3.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.catering {
+    background: url(../img/pie_icon.png) right / contain no-repeat;
+}
+
+.catering article , .ourcakes article{
+    width: 30%;
+    padding: 15% 0 10% 50%;
+}
+
+
+.catering img , .ourcakes img{
+    height: 90%;
+    width: 90%;
+    margin-top: -100%;
+    margin-left: -100%;
+    margin-bottom: 9%;
+}
+
+.bridge04 {
+    background: url(../img/bridge_4.jpeg) center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+.ourcakes {
+    background: url(../img/muffin_icon.png) left / contain no-repeat;
+
+}
+
+.button {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 1% 2%;
+    background: #fff;
+    font-size: 1rem;
+}
+
+footer {
+    height: 40vh;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 2%;
+}
+
+footer p {
+    font-size: 1.5rem;
+    line-height: .5rem;
+}
+
+footer img {
+    height: 10%;
+    display: block;
+    margin: 0 auto;
 }
